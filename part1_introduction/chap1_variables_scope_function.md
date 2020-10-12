@@ -271,11 +271,13 @@ tdz();
 Est ce que le code ci-dessous va s'exécuter correctement ?
 
 ```js
-let i = 10;
+let i = 100;
 
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+console.log(i);
 ```
 
 Le code suivant s'exécute-t-il correctement ? Et si oui qu'affichera t il ? Répondez sans exécuter le code :
