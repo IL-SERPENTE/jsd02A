@@ -482,19 +482,21 @@ La fonction filter permet de filtrer des données dans un tableau en fonction d'
 powerNumber.filter((number) => number > 10);
 ```
 
-Par exemple, pour faire la somme des nombres de la variable numbers plus haut dans le cours, vous pouvez en utilisant reduce écrire le code suivant :
+Par exemple, pour faire la somme des nombres de la variable numbers plus haut dans le cours, vous pouvez en utilisant reduce écrire le code suivant.
+
+Vous pouvez passer une valeur par défaut à la fonction reduce deuxième paramètre. Cette valeur est facultative et par défaut vaut 0.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const total = numbers.reduce((curr, acc) => curr + acc);
-
+// première paramètre fonction fléchée, deuxième paramètre val init de acc
+const total = numbers.reduce((acc, curr) => curr + acc, 0);
 console.log(total); // affiche 55
 ```
 
 Remarque, reduce possède deux paramètres **curr** : valeur courante du tableau et **acc** variable permettant d'accumuler les calculs. Un reducer produit un unique résultat sur une collection de type Array. Vous pouvez également initialiser la variable acc en donnant une valeur à la méthode reducer deuxième paramètre facultatif :
 
 ```js
-numbers.reduce((curr, acc) => curr + acc, 100);
+numbers.reduce((acc, curr) => curr + acc, 100);
 // 155
 ```
 
@@ -503,10 +505,18 @@ numbers.reduce((curr, acc) => curr + acc, 100);
 Soit numbers une liste de nombres filtrez les nombres pairs et les élevez à la puissance 3.
 
 ```js
-const
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
 
+### Exercice reduce sum impair
 
 ### Exercice fonction map
+
+Faites la somme des nombres impairs en utilisant la fonction reduce des valeurs suivantes :
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
 
 Utilisez la fonction map pour calculer le prix TTC des téléphones suivants en utilisant une fonction fléchée :
 
