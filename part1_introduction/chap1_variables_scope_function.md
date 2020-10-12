@@ -1,6 +1,6 @@
 # Introduction
 
-JS est un langage de script, orienté objet. Principalement exécuté dans une page Web, on le retrouve aujourd'hui dans d'autres contextes comme : Node.js, MongoDB (on peut programmer des requêtes en JS), ...
+JS est un langage de script, orienté objet. Principalement exécuté dans une page Web, on le retrouve aujourd'hui dans d'autres contextes comme : Node.js, MongoDB (interpréteur JS), ...
 
 JS suit la norme **ECMAScript**, standard que suivent certains langages de script comme Javascript. Cette norme évolue. Les principaux navigateurs Web implémentent ces normes pour le JS.
 
@@ -422,7 +422,10 @@ sum(...numbers); // sum(1, 2, 3)
 
 ### Exercice sum spread ttc
 
-Ecrivez une fonction sumTTC qui prend 3 nombres arbitraires de prix HT et retourne la somme de ces prix TTC, la tva sera un paramètre facultatif de la fonction. Les prix HT seront donnés dans un tableau :
+Ecrivez une fonction **sumTTC** qui prend 3 nombres arbitraires de prix HT et retourne la somme de ces prix TTC. La tva est facultative (20%).
+Vérifiez que le type des variables passées en paramètre ne posent pas de problème. Utilisez **parseFloat**. Affichez les résultats avec au plus 2 chiffres après la virgule.
+
+Les prix HT seront donnés dans un tableau :
 
 ```js
 const pricesHT = [100, 200, 55];
@@ -463,6 +466,14 @@ Vous pouvez utiliser une fonction fléchée sur des collections en utilisant des
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const powerNumber = numbers.map((number) => number ** 2);
 
+```
+
+### Exercice puissance 3
+
+Soit numbers une liste de nombres élevez à la puissance 3 , 2**3 = Math.power(2, 3), les nombres pairs en utilisant une fonction fléchée.
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 La fonction filter permet de filtrer des données dans un tableau en fonction d'un critère
