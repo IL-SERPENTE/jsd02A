@@ -365,7 +365,14 @@ add(10, 0); // affiche 10
 
 ### Exercice ttc
 
-Créez une fonction qui permet de calculer un prix ttc connaissant un prix HT. Donnez une valeur par défaut tva en paramètre de la fonction. Fixez cette tva par défaut à 20%.
+1. Créez une fonction qui permet de calculer un prix ttc connaissant un prix HT. Donnez une valeur par défaut pour la tva en paramètre de la fonction. Fixez cette tva par défaut à 20%.
+
+2. Vérifiez que le type des variables passées en paramètre ne posent pas de problème. Utilisez **parseFloat**. Affichez les résultats avec au plus 2 chiffres après la virgule. 
+
+```js
+ttc(100, 0.2); // 120
+
+```
 
 ### Exercice accumulator (\*\*)
 
