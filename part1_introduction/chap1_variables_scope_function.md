@@ -510,13 +510,13 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 ### Exercice reduce sum impair
 
-### Exercice fonction map
-
 Faites la somme des nombres impairs en utilisant la fonction reduce des valeurs suivantes :
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
+
+### Exercice fonction map
 
 Utilisez la fonction map pour calculer le prix TTC des téléphones suivants en utilisant une fonction fléchée :
 
