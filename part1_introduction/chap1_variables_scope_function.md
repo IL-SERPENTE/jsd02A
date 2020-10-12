@@ -371,7 +371,14 @@ add(10, 0); // affiche 10
 
 ```js
 ttc(100, 0.2); // 120
+ttc(100.50, 0.2); // 144.72
 
+// Partie 2
+
+// Gestion du type
+ttc("hello", 0.2); // Erreur de type
+ttc(100.50, "hello"); // Erreur de type
+ttc("100", ".3"); // 130
 ```
 
 ### Exercice accumulator (\*\*)
