@@ -498,6 +498,14 @@ numbers.reduce((curr, acc) => curr + acc, 100);
 // 155
 ```
 
+### Exercice puissance 3 nombres pairs
+
+Soit numbers une liste de nombres filtrez les nombres pairs et les élevez à la puissance 3.
+
+```js
+const
+
+
 ### Exercice fonction map
 
 Utilisez la fonction map pour calculer le prix TTC des téléphones suivants en utilisant une fonction fléchée :
