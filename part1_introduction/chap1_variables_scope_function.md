@@ -692,7 +692,7 @@ let a = 1, b = 2, c = 4;
 
 1. Calculez la moyenne des notes de l'étudiant. Modifiez le littéral.
 
-2. Soit le littéral student suivant assignez les valeurs **name**, **notes** et **average** dans les constantes name, notes et average dans le script courant.
+2. Puis assignez les valeurs **name**, **notes** et **average** dans les constantes name, notes et average dans le script courant.
 
 ```js
 let student = {
