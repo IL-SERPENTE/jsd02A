@@ -750,13 +750,29 @@ let numMerge = [...numbers1, ...numbers2];
 Vous pouvez également "merger" deux littéraux :
 
 ```js
-let st1 = { s1: "Alan", s2: "Alice" };
-let st2 = { s3: "Bernard", s4: "Sophie" };
+const st1 = { s1: "Alan", s2: "Alice" };
+const st2 = { s3: "Bernard", s4: "Sophie" };
 
-let stMerge = { ...st1, ...st2 };
+const stMerge = { ...st1, ...st2 };
+console.log(stMerge);
+//{s1: "Alan", s2: "Alice", s3: "Bernard", s4: "Sophie"}
 ```
 
 Le spread operator peut servir également pour "mettre à jour" une clé dans un littéral :
+
+En reprenant l'exemple précédent :
+
+```js
+const st11 = { s1: "Alan", s2: "Alice" };
+const st22 = { s2: "Bernard", s4: "Sophie" };
+
+const stMerge = { ...st11, ...st22 };
+
+console.log(stMerge);
+// {s1: "Alan", s2: "Bernard",  s4: "Sophie"}
+```
+
+Ou simplement mettre à jour une clé
 
 ```js
 const state = {
