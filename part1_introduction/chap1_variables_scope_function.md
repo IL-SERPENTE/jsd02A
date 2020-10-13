@@ -467,6 +467,11 @@ Dans le cas ou vous souhaiteriez retourner un unique littéral, dans des accolad
 // syntaxe consise
 const model = (x, y) => ({ x, y }) ;
 console.log(model(1,2)); // retournera { x : 1, y : 2 }
+
+// Une syntaxe plus longue mais équivalente
+const model2 = (x, y) => { 
+    return { x : x, y : y }
+}
 ```
 
 Contrairement aux fonctions classiques, les fonctions fléchées ne re-définissent pas de this. Si vous vous référez dans une fonction fléchée au mot clé this, la fonction fléchée **récupérera le this du contexte** de définition de la fonction :
@@ -685,7 +690,9 @@ let a = 1, b = 2, c = 4;
 
 ### Exercice assigner par décomposition
 
-Soit le littéral student suivant assignez les valeurs **name**, **notes** et **average** dans les constantes name, notes et average dans le script courant.
+1. Calculez la moyenne des notes de l'étudiant. Modifiez le littéral.
+
+2. Soit le littéral student suivant assignez les valeurs **name**, **notes** et **average** dans les constantes name, notes et average dans le script courant.
 
 ```js
 let student = {
