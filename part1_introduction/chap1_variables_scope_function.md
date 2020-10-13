@@ -810,6 +810,14 @@ let name = "email";
 const newState = { ...state, [name]: "bernard@bernard.fr" };
 ```
 
+## Exercice ordre et longueur de mots
+
+Ordonnez par ordre croissant de nombre de lettres le tableau students ci-dessous :
+
+```js
+const students = [ "Alan", "Philippe", "Tony", "Geraldine", "Michelle", "Phi" ];
+```
+
 ## Exercice populations
 
 1. Soit les données suivantes populations, ordonnez-les par ordre croissant par rapport à la longueur des noms.
@@ -838,6 +846,20 @@ const populations = [
   { id: 11, name: "Isaac" },
   { id: 12, name: "Ian" },
 ];
+```
+
+4. (Facultatif) Ajoutez une clé relation au tableau population et indiquez pour chaque personne les noms de ses relations. Ordonnez ces relations par ordre croissant de nombre de relation. Affichez la personne qui le plus de relation.
+
+```js
+const relations = [
+  { id : 0 , relation : [1, 2, 4]},
+  { id : 3 , relation : [7, 8]},
+  { id : 4 , relation : [2, 7, 8, 11]},
+  { id : 5 , relation : [1, 2, 4]},
+  { id : 7 , relation : [2, 3, 5, 9]},
+  { id : 9 , relation : [1, 2, 4, 8, 11]},
+  { id : 11 , relation : [1, 2, 9, 10,]},
+]
 ```
 
 ## Interpolation
