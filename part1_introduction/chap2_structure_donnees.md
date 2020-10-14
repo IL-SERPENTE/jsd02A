@@ -267,6 +267,9 @@ const DataStudents =
             }
         ]
     ];
+
+// création du Map
+const dataStMap = new Map(DataStudents);
 ```
 
 ## Set
