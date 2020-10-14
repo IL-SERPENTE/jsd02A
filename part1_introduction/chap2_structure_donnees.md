@@ -95,7 +95,9 @@ let numbers = [7, 9, 10, 1, 2, 3, 71, 8 ];
 
 1. Inversez la chaîne de caractères sentence ci-après.
 
-2. Faites un script qui prend en argument message (texte) et qui retourne un tableau des valeurs du nombre de caractères de chaque mot. Vous ne compterez pas les esapces comme un caractère.
+2. Comptez la longueur de chaque mot.
+
+3. Faites un script qui prend en argument message (texte) et qui retourne un tableau des valeurs du nombre de caractères de chaque mot. Vous ne compterez pas les esapces comme un caractère.
 
 Indication : utilisez la méthode split pour transformer la chaîne en tableau.
 
