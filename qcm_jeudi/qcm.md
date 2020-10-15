@@ -76,7 +76,7 @@ console.log(a,b,c,d);
 * [ ] 4 4 4 4
 
 ### Question 7
-Que valent les valeurs a, b, c, d dans le code suivant ?
+Que vaut le merge stMerge ? 
 ```javascript
 const st1 = { s1: "Alan", s2: "Alice" };
 const st2 = { s2: "Bernard", s4: "Sophie" };
