@@ -309,3 +309,36 @@ Soit la chaîne de caractères suivantes, récupérez tous les numériques de ce
 ```js
 const phrase = '8790:bonjour le monde:8987:7777:Hello World:9007';
 ```
+
+## Exercice Population intérêts et analyse de données
+
+En utilisant les données ci-dessous 
+
+1. Comptez tous les docteurs.
+
+2. Récupérez les noms des développeurs fullstack.
+
+3. Récupérez les noms des personnes qui n'ont jamais travaillés.
+
+4. Etudiez les mots de passe des personnes et comptez les occurences des lettres dans les mots de passe.
+
+5. (Facultatif) Sélectionnez les personnes qui ont des mots de passe avec un nombre de lettre très différents.
+
+```js
+const populations = [
+  { id: 0, name: "Alan", jobs = ['dev junior', 'dev fullstack'], password : "tyeedsa00" },
+  { id: 1, name: "Albert", jobs = [ 'doctor'], password : "tyeudji00" },
+  { id: 2, name: "Jhon" , jobs = ['mathematician', 'doctor'], password : "xyuuuoi00"},
+  { id: 3, name: "Brice", jobs = ['dev fullstack'] },
+  { id: 4, name: "Alexendra", jobs = ['dentist'] },
+  { id: 5, name: "Brad" },
+  { id: 6, name: "Carl" , jobs = ['lead dev', 'dev fullstack']},
+  { id: 7, name: "Dallas" , jobs = [ 'dev fullstack']},
+  { id: 8, name: "Dennis", jobs = ['integrator', 'dev fullstack'] },
+  { id: 9, name: "Edgar", jobs = ['mathematician'] },
+  { id: 10, name: "Erika", jobs = ['computer scientist', 'mathematician'] },
+  { id: 11, name: "Isaac", jobs = ['doctor'], password : "Axgkj00Klx" },
+  { id: 12, name: "Ian", password : "Axgkj00Klx" },
+];
+
+```
