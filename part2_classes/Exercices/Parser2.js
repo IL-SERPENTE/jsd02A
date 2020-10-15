@@ -14,9 +14,24 @@ class Parser {
     }
 
     parse(phrase) {
-        this._str = phrase.split( this._motif ).map( word => word.trim() );
+        this._str = phrase
+            .split( this._motif )
+            .map( word => word.trim() )
+            .filter( word => parseInt(word) == word )
+            .join(' ');
+            
         // ALGO
-        
+        // const numbers = [] ;
+
+        // this._str.map( word => {
+        //     if( parseInt(word) == word ){
+        //         numbers.push(word);
+        //     }
+        // });
+
+        // this._str = numbers.join(' ');
+
+       
     }
 }
 
