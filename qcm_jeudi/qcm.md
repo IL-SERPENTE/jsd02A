@@ -67,6 +67,7 @@ Que valent les valeurs a, b, c, d dans le code suivant ?
 ```javascript
 let a = 1, b = 2, c = 3, d = 4 ;
 [d, c, b, a] = [a, b, c, d];
+console.log(a,b,c,d);
 ```
 *Réponses* :
 * [ ] 4 2 3 1
