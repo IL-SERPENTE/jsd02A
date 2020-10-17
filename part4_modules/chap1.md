@@ -101,7 +101,7 @@ Une fois installé, vous devrier voir, placez dans la barre d'état en bas à dr
 
 *Remarque : le live server se lance à la racine de votre projet vscode.*
 
-Dans cette page nous n'avons qu'à charger le fichier app.js en mentionnant à notre navigateur que le fichier importé utilise des modules, voyez l'attribut type="module" dans la balise script ci-dessous : 
+Dans cette page nous n'avons qu'à charger le fichier app.js en mentionnant à notre navigateur que le fichier importé utilise des modules, voyez l'attribut type="module" dans la balise script ci-dessous, ce code ce trouve dans la page index.html : 
 
 ```html
  <script type="module" src="./app.js"></script>
