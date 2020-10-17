@@ -113,9 +113,9 @@ API : ABC123  app.js:12
 PASS : 123    app.js:15 
 ```
 
-Remarque : ne cherchez pas à afficher la page index.html directement depuis vos dossiers et fichier avec votre explorateur de fichiers/dossiers de votre système, passer par le Live Server de vscode. Le navigateur bloquera les imports (point de sécurité du navigateur, nous en reparlerons).
+Remarque : ne cherchez pas à afficher la page index.html directement depuis vos dossiers et fichiers de votre OS, passez par le Live Server de vscode, le navigateur bloquera les imports (point de sécurité du navigateur, nous en reparlerons).
 
-Pour arrêter le live server dans vscode : cliquez en bas à droite sur l'onglet suivant :
+Pour arrêter le Live Server dans vscode : cliquez en bas à droite sur l'onglet suivant :
 **Port: 5500**
 
 Remarque : le port peut éventuellement être différent.
